@@ -38,7 +38,6 @@ Minimal peer-to-peer file transfer tool for Linux. Direct encrypted transfers be
 Reverse-engineering project for Battlefield 2 and compatible mods (Forgotten Hope 2, Project Reality). An injected DLL that reads live game state from process memory — player nametags with distance, enemy positions on the minimap — controlled through an in-game UI menu.
 
 <br clear="left"/>
-<br/>
 
 ### More projects
 
