@@ -20,6 +20,7 @@ Building 4G/5G software used by over 1 billion users worldwide.
 Lightweight desktop hardware monitor for Linux — CPU, GPU, memory, storage, network, and display metrics without root access. Reads sensors directly from sysfs/hwmon, with live per-second charts on a customizable dashboard. Actively developed, with packaged releases.
 
 <br clear="left"/>
+<br/>
 
 <a href="https://github.com/daniel-konoplanski/p2p_file_transfer"><img align="left" src="assets/p2p_ft/receiver_req-rounded.png" alt="p2p_ft receiver approval prompt" width="400" /></a>
 
@@ -28,6 +29,7 @@ Lightweight desktop hardware monitor for Linux — CPU, GPU, memory, storage, ne
 Minimal peer-to-peer file transfer tool for Linux. Direct encrypted transfers between two machines over TLS 1.2+ with auto-generated ECDSA certificates, chunked streaming, interactive approval prompts, and real-time progress tracking.
 
 <br clear="left"/>
+<br/>
 
 <a href="https://github.com/daniel-konoplanski/bf2_memhack_v2"><img align="left" src="assets/bf2_memhack_v2/nametags_and_maphack-rounded.png" alt="bf2_memhack_v2 nametags and maphack in-game" width="400" /></a>
 
@@ -36,6 +38,7 @@ Minimal peer-to-peer file transfer tool for Linux. Direct encrypted transfers be
 Reverse-engineering project for Battlefield 2 and compatible mods (Forgotten Hope 2, Project Reality). An injected DLL that reads live game state from process memory — player nametags with distance, enemy positions on the minimap — controlled through an in-game UI menu.
 
 <br clear="left"/>
+<br/>
 
 ### More projects
 
