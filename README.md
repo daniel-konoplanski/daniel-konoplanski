@@ -4,7 +4,7 @@
 
 ### **C++ Software Engineer @ Nokia**
 
-Building 4G/5G software used by 1B+ users worldwide.
+Building 4G/5G software used by over 1 billion users worldwide.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjUgMHoiLz48L3N2Zz4K)](https://www.linkedin.com/in/daniel-konoplanski/)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/daniel_konoplanski/)
@@ -13,44 +13,35 @@ Building 4G/5G software used by 1B+ users worldwide.
 
 ## 🚀 Featured Work
 
-<table>
-  <tr>
-    <td width="400">
-      <a href="https://github.com/daniel-konoplanski/ramiel"><img src="assets/ramiel/dashboard-rounded.png" alt="Ramiel dashboard" width="400" /></a>
-    </td>
-    <td>
-      <h3><a href="https://github.com/daniel-konoplanski/ramiel">ramiel</a></h3>
-      <p>Lightweight desktop hardware monitor for Linux — CPU, GPU, memory, storage, network, and display metrics without root access. Reads sensors directly from sysfs/hwmon, with live per-second charts on a customizable dashboard. Actively developed, with packaged releases (.deb, .rpm, AppImage).</p>
-      <p><sub>Tauri v2 · Rust · Svelte</sub></p>
-    </td>
-  </tr>
-</table>
+<a href="https://github.com/daniel-konoplanski/ramiel"><img align="left" src="assets/ramiel/dashboard-rounded.png" alt="Ramiel dashboard" width="400" /></a>
 
-<table>
-  <tr>
-    <td width="400">
-      <a href="https://github.com/daniel-konoplanski/p2p_file_transfer"><img src="assets/p2p_ft/receiver_req-rounded.png" alt="p2p_ft receiver approval prompt" width="400" /></a>
-    </td>
-    <td>
-      <h3><a href="https://github.com/daniel-konoplanski/p2p_file_transfer">p2p_ft</a></h3>
-      <p>Minimal peer-to-peer file transfer tool for Linux. Direct encrypted transfers between two machines over TLS 1.2+ with auto-generated ECDSA certificates, chunked streaming, interactive approval prompts, and real-time progress tracking.</p>
-      <p><sub>C++23 · Boost.Asio · Protocol Buffers</sub></p>
-    </td>
-  </tr>
-</table>
+### [ramiel](https://github.com/daniel-konoplanski/ramiel)
 
-<table>
-  <tr>
-    <td width="400">
-      <a href="https://github.com/daniel-konoplanski/bf2_memhack_v2"><img src="assets/bf2_memhack_v2/nametags_and_maphack-rounded.png" alt="bf2_memhack_v2 nametags and maphack in-game" width="400" /></a>
-    </td>
-    <td>
-      <h3><a href="https://github.com/daniel-konoplanski/bf2_memhack_v2">bf2_memhack_v2</a></h3>
-      <p>Reverse-engineering project for Battlefield 2 and compatible mods (Forgotten Hope 2, Project Reality). An injected DLL that reads live game state from process memory — player nametags with distance, enemy positions on the minimap — controlled through an in-game UI menu.</p>
-      <p><sub>C++ · DLL injection · Reverse engineering</sub></p>
-    </td>
-  </tr>
-</table>
+Lightweight desktop hardware monitor for Linux — CPU, GPU, memory, storage, network, and display metrics without root access. Reads sensors directly from sysfs/hwmon, with live per-second charts on a customizable dashboard. Actively developed, with packaged releases (.deb, .rpm, AppImage).
+
+<sub>Tauri v2 · Rust · Svelte</sub>
+
+<br clear="left"/>
+
+<a href="https://github.com/daniel-konoplanski/p2p_file_transfer"><img align="left" src="assets/p2p_ft/receiver_req-rounded.png" alt="p2p_ft receiver approval prompt" width="400" /></a>
+
+### [p2p_ft](https://github.com/daniel-konoplanski/p2p_file_transfer)
+
+Minimal peer-to-peer file transfer tool for Linux. Direct encrypted transfers between two machines over TLS 1.2+ with auto-generated ECDSA certificates, chunked streaming, interactive approval prompts, and real-time progress tracking.
+
+<sub>C++23 · Boost.Asio · Protocol Buffers</sub>
+
+<br clear="left"/>
+
+<a href="https://github.com/daniel-konoplanski/bf2_memhack_v2"><img align="left" src="assets/bf2_memhack_v2/nametags_and_maphack-rounded.png" alt="bf2_memhack_v2 nametags and maphack in-game" width="400" /></a>
+
+### [bf2_memhack_v2](https://github.com/daniel-konoplanski/bf2_memhack_v2)
+
+Reverse-engineering project for Battlefield 2 and compatible mods (Forgotten Hope 2, Project Reality). An injected DLL that reads live game state from process memory — player nametags with distance, enemy positions on the minimap — controlled through an in-game UI menu.
+
+<sub>C++ · DLL injection · Reverse engineering</sub>
+
+<br clear="left"/>
 
 ### More projects
 
