@@ -17,9 +17,7 @@ Building 4G/5G software used by over 1 billion users worldwide.
 
 ### [ramiel](https://github.com/daniel-konoplanski/ramiel)
 
-Lightweight desktop hardware monitor for Linux — CPU, GPU, memory, storage, network, and display metrics without root access. Reads sensors directly from sysfs/hwmon, with live per-second charts on a customizable dashboard. Actively developed, with packaged releases (.deb, .rpm, AppImage).
-
-<sub>Tauri v2 · Rust · Svelte</sub>
+Lightweight desktop hardware monitor for Linux — CPU, GPU, memory, storage, network, and display metrics without root access. Reads sensors directly from sysfs/hwmon, with live per-second charts on a customizable dashboard. Actively developed, with packaged releases.
 
 <br clear="left"/>
 
@@ -29,8 +27,6 @@ Lightweight desktop hardware monitor for Linux — CPU, GPU, memory, storage, ne
 
 Minimal peer-to-peer file transfer tool for Linux. Direct encrypted transfers between two machines over TLS 1.2+ with auto-generated ECDSA certificates, chunked streaming, interactive approval prompts, and real-time progress tracking.
 
-<sub>C++23 · Boost.Asio · Protocol Buffers</sub>
-
 <br clear="left"/>
 
 <a href="https://github.com/daniel-konoplanski/bf2_memhack_v2"><img align="left" src="assets/bf2_memhack_v2/nametags_and_maphack-rounded.png" alt="bf2_memhack_v2 nametags and maphack in-game" width="400" /></a>
@@ -38,8 +34,6 @@ Minimal peer-to-peer file transfer tool for Linux. Direct encrypted transfers be
 ### [bf2_memhack_v2](https://github.com/daniel-konoplanski/bf2_memhack_v2)
 
 Reverse-engineering project for Battlefield 2 and compatible mods (Forgotten Hope 2, Project Reality). An injected DLL that reads live game state from process memory — player nametags with distance, enemy positions on the minimap — controlled through an in-game UI menu.
-
-<sub>C++ · DLL injection · Reverse engineering</sub>
 
 <br clear="left"/>
 
