@@ -11,22 +11,26 @@ Building 4G/5G software used by over 1 billion users worldwide.
 
 </div>
 
-## 🚀 Featured Work
+## Featured work
 
 <a href="https://github.com/daniel-konoplanski/ramiel"><img align="left" src="assets/ramiel/dashboard-rounded.png" alt="Ramiel dashboard" width="400" /></a>
 
 ### [ramiel](https://github.com/daniel-konoplanski/ramiel)
 
-Lightweight desktop hardware monitor for Linux — CPU, GPU, memory, storage, network, and display metrics without root access. Reads sensors directly from sysfs/hwmon, with live per-second charts on a customizable dashboard. Actively developed, with packaged releases.
+Desktop hardware monitor for Linux — CPU, GPU, memory, storage, network and display, without root.
+
+Reads sensors straight from sysfs/hwmon and draws live per-second charts on a dashboard you arrange yourself. Actively developed, with packaged releases.
 
 <br clear="left"/>
 <br/>
 
-<a href="https://github.com/daniel-konoplanski/p2p_file_transfer"><img align="left" src="assets/p2p_ft/receiver_req-rounded.png" alt="p2p_ft receiver approval prompt" width="400" /></a>
+<a href="https://github.com/daniel-konoplanski/p2p_file_transfer"><img align="left" src="assets/p2p_ft/transfer-rounded.png" alt="p2p_ft sender and receiver completing a transfer" width="400" /></a>
 
 ### [p2p_ft](https://github.com/daniel-konoplanski/p2p_file_transfer)
 
-Minimal peer-to-peer file transfer tool for Linux. Direct encrypted transfers between two machines over TLS 1.2+ with auto-generated ECDSA certificates, chunked streaming, interactive approval prompts, and real-time progress tracking.
+Peer-to-peer file transfer for Linux — one command on each end, no server in between.
+
+Direct TLS 1.2+ transfers over auto-generated ECDSA certificates, with chunked streaming, live progress, and an interactive approval prompt before anything touches disk.
 
 <br clear="left"/>
 <br/>
@@ -35,51 +39,31 @@ Minimal peer-to-peer file transfer tool for Linux. Direct encrypted transfers be
 
 ### [bf2_memhack_v2](https://github.com/daniel-konoplanski/bf2_memhack_v2)
 
-Reverse-engineering project for Battlefield 2 and compatible mods (Forgotten Hope 2, Project Reality). An injected DLL that reads live game state from process memory — player nametags with distance, enemy positions on the minimap — controlled through an in-game UI menu.
+Reverse-engineering project for Battlefield 2 and its mods (Forgotten Hope 2, Project Reality).
+
+An injected DLL that reads live game state out of process memory — player nametags with distance, enemy positions on the minimap — driven from an in-game menu.
 
 <br clear="left"/>
 
 ### More projects
 
-- **[silverspark](https://github.com/daniel-konoplanski/silverspark)** — AFK automation tool for Conqueror's Blade; deterministic move-settle-click input injection driving the DirectX client, toggled by a global F12 hotkey. `Python · pydirectinput · uv`
-- **[bitmap_manipulator](https://github.com/daniel-konoplanski/bitmap_manipulator)** — Windows Forms desktop app demonstrating four classic image filters with real-time preview. `C# · .NET Framework`
+- **[echo_server_coroutines](https://github.com/daniel-konoplanski/echo_server_coroutines)** — Echo server exploring C++20 coroutines for async I/O, on Boost.Asio and Boost.Cobalt. `C++20 · Boost.Asio · Boost.Cobalt`
 - **[cpp_project_template](https://github.com/daniel-konoplanski/cpp_project_template)** — Batteries-included C++ template: clean src/include/tests layout, CMake presets and toolchains, clang-format/clangd, vcpkg. `CMake · vcpkg`
+- **[silverspark](https://github.com/daniel-konoplanski/silverspark)** — AFK automation for Conqueror's Blade; deterministic move-settle-click input injection driving the DirectX client, toggled by a global F12 hotkey. `Python · pydirectinput · uv`
 
-## 🛠️ Tech Stack
+## Tech stack
 
-**Languages**
+**Languages** — C++ · Rust · Python · C# · TypeScript
 
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=cplusplus&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![C%23](https://img.shields.io/badge/C%23-512BD4?style=flat&logo=dotnet&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+**Libraries** — STL · Boost · Protocol Buffers · gRPC · OpenSSL · GoogleTest · Tauri · Svelte
 
-**Libraries & Frameworks**
+**Platform** — Linux · CMake · Docker · Jenkins · PostgreSQL · Bash · Git
 
-![STL](https://img.shields.io/badge/STL-00599C?style=flat&logo=cplusplus&logoColor=white)
-![Boost](https://img.shields.io/badge/Boost-F7941E?style=flat&logo=boost&logoColor=white)
-![Protocol Buffers](https://img.shields.io/badge/Protobuf-4285F4?style=flat&logo=protobuf&logoColor=white)
-![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=flat&logo=grpc&logoColor=white)
-![OpenSSL](https://img.shields.io/badge/OpenSSL-721412?style=flat&logo=openssl&logoColor=white)
-![GoogleTest](https://img.shields.io/badge/GoogleTest-4285F4?style=flat&logo=google&logoColor=white)
-![Tauri](https://img.shields.io/badge/Tauri-24C8D8?style=flat&logo=tauri&logoColor=white)
-![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=flat&logo=svelte&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white)
-
-**Tools & Platforms**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat&logo=cmake&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat&logo=jenkins&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-
-## 📘 Learning
+## Learning
 
 - [asynchronous_programming_with_cpp](https://github.com/daniel-konoplanski/asynchronous_programming_with_cpp) — examples and tasks from *Asynchronous Programming with C++* by Reguera-Salgado & Rufes
 - [moder_cpp_third_edition](https://github.com/daniel-konoplanski/moder_cpp_third_edition) — examples from *Modern C++ Programming Cookbook, 3rd Edition* by Marius Bancila
 - [the_rust_programming_language](https://github.com/daniel-konoplanski/the_rust_programming_language) — examples from *The Rust Programming Language*
+- [go_by_example](https://github.com/daniel-konoplanski/go_by_example) — working through the Go language basics
 - [leetcode](https://github.com/daniel-konoplanski/leetcode) / [leetcode_rust](https://github.com/daniel-konoplanski/leetcode_rust) — LeetCode solutions in C++ and Rust
+- [getcracked.io](https://github.com/daniel-konoplanski/getcracked.io) — getcracked.io problem solutions in C++
