@@ -21,6 +21,8 @@ Desktop hardware monitor for Linux — CPU, GPU, memory, storage, network and di
 
 Reads sensors straight from sysfs/hwmon and draws live per-second charts on a dashboard you arrange yourself. Actively developed, with packaged releases.
 
+`Rust` `Tauri v2` `Svelte`
+
 <br clear="left"/>
 <br/>
 
@@ -31,6 +33,8 @@ Reads sensors straight from sysfs/hwmon and draws live per-second charts on a da
 Peer-to-peer file transfer for Linux — one command on each end, no server in between.
 
 Direct TLS 1.2+ transfers over auto-generated ECDSA certificates, with chunked streaming, live progress, and an interactive approval prompt before anything touches disk.
+
+`C++23` `Boost.Asio` `OpenSSL` `Protocol Buffers`
 
 <br clear="left"/>
 <br/>
@@ -43,13 +47,23 @@ Reverse-engineering project for Battlefield 2 and its mods (Forgotten Hope 2, Pr
 
 An injected DLL that reads live game state out of process memory — player nametags with distance, enemy positions on the minimap — driven from an in-game menu.
 
+`C++20` `ImGui` `MinHook` `DirectX 9`
+
 <br clear="left"/>
 
 ### More projects
 
-- **[echo_server_coroutines](https://github.com/daniel-konoplanski/echo_server_coroutines)** — Echo server exploring C++20 coroutines for async I/O, on Boost.Asio and Boost.Cobalt. `C++20 · Boost.Asio · Boost.Cobalt`
-- **[cpp_project_template](https://github.com/daniel-konoplanski/cpp_project_template)** — Batteries-included C++ template: clean src/include/tests layout, CMake presets and toolchains, clang-format/clangd, vcpkg. `CMake · vcpkg`
-- **[silverspark](https://github.com/daniel-konoplanski/silverspark)** — AFK automation for Conqueror's Blade; deterministic move-settle-click input injection driving the DirectX client, toggled by a global F12 hotkey. `Python · pydirectinput · uv`
+- **[echo_server_coroutines](https://github.com/daniel-konoplanski/echo_server_coroutines)** — Echo server exploring C++20 coroutines for async I/O.
+
+  `C++20` `Boost.Asio` `Boost.Cobalt`
+
+- **[cpp_project_template](https://github.com/daniel-konoplanski/cpp_project_template)** — Batteries-included C++ template: clean src/include/tests layout, CMake presets and toolchains, clang-format/clangd, vcpkg.
+
+  `C++` `CMake` `vcpkg`
+
+- **[silverspark](https://github.com/daniel-konoplanski/silverspark)** — AFK automation for Conqueror's Blade; deterministic move-settle-click input injection driving the DirectX client, toggled by a global F12 hotkey.
+
+  `Python` `pydirectinput` `uv`
 
 ## Tech stack
 
